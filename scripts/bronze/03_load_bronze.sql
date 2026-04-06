@@ -42,6 +42,8 @@ Usage
 ===============================================================================
 */
 
+BEGIN;
+
 -- =========================
 -- CRM TABLES
 -- =========================
@@ -67,3 +69,5 @@ TRUNCATE TABLE bronze.erp_cust_az12;
 
 TRUNCATE TABLE bronze.erp_px_cat_g1v2;
 \copy bronze.erp_px_cat_g1v2 FROM '/Users/angelcpizarro/Desktop/sql_data_warehouse_project/datasets/source_erp/px_cat_g1v2.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',')
+
+COMMIT;
