@@ -10,6 +10,8 @@ Script Purpose:
 ===============================================================================
 */
 
+BEGIN;
+
 -- Drop tables if they exist
 DROP TABLE IF EXISTS bronze.crm_cust_info;
 DROP TABLE IF EXISTS bronze.crm_prd_info;
@@ -69,3 +71,5 @@ CREATE TABLE bronze.erp_px_cat_g1v2 (
     subcat       VARCHAR(50),
     maintenance  VARCHAR(50)
 );
+
+COMMIT;
