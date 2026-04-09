@@ -40,7 +40,7 @@ This project covers:
 
 The project follows the **Medallion Architecture** approach:
 
-![Data Architecture](docs/data_warehouse_architecture.png)
+![Data Architecture](documents/data_warehouse_architecture.png)
 
 ### 📑 Layer Overview
 
