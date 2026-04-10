@@ -2,7 +2,7 @@
 
 Welcome to this repository! 👋  
 
-This project represents my first end-to-end **Data Warehouse** build, where I transform raw data into **clean, structured, and business-ready datasets** using SQL.
+This project represents my first end-to-end **Data Warehouse** build, where I transform raw data into **clean, structured, and business-ready datasets** using PostgreSQL.
 
 The goal is to simulate a real-world data engineering workflow — starting from raw CSV files and building a complete data pipeline using a medallion architecture (**Bronze → Silver → Gold**).
 
