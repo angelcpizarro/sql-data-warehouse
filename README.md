@@ -12,7 +12,7 @@ Throughout this project, I focus on applying practical data engineering concepts
 - data cleaning and standardisation  
 - data quality validation  
 
-Let's dive in!
+Let's jump in!
 
 ---
 
